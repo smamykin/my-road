@@ -1,5 +1,9 @@
-body {
-  & .app {
-    background:red;
+.app {
+  .task-field {
+    margin-left: 10px;
+    &:first-child {
+      margin-left: 0;
+      width: 600px;
+    }
   }
 }
